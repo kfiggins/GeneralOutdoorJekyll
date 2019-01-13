@@ -2,20 +2,162 @@
 layout: default
 ---
 
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
-<h1>Inventory</h1>
+<section id="content">
+  <div class="content-wrap">
+    <div class="container clearfix">
+      <table class="table">
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Facing</th>
+          <th>Size</th>
+          <th>City</th>
+        </tr>
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>91 & I-15 in CORONA</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.corona %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>60 Freeway in ONTARIO</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.ontario %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>I-15 in RANCHO CUCAMONGA</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.cucamonga %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>I-15 in LAKE ELSINORE</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.elsinore %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>I-15 in EASTVALE</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.eastvale %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>I-10 in FONTANA</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.fontana %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>210 in RIALTO</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.rialto %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>710 in COMMERCE</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.commerce %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>BARSTOW AREA</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.barstow %}
+        <tr>
+          <td>{{ member.name }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</section>
