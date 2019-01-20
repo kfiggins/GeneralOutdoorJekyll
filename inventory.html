@@ -20,15 +20,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.corona %}
+        {% for member in site.data.inventory %} {% if member.group == "corona" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>60 Freeway in ONTARIO</th>
           <th></th>
@@ -36,15 +36,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.ontario %}
+        {% for member in site.data.inventory %} {% if member.group == "ontario" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>I-15 in RANCHO CUCAMONGA</th>
           <th></th>
@@ -52,15 +52,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.cucamonga %}
+        {% for member in site.data.inventory %} {% if member.group == "cucamonga" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>I-15 in LAKE ELSINORE</th>
           <th></th>
@@ -68,15 +68,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.elsinore %}
+        {% for member in site.data.inventory %} {% if member.group == "elsinore" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>I-15 in EASTVALE</th>
           <th></th>
@@ -84,15 +84,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.eastvale %}
+        {% for member in site.data.inventory %} {% if member.group == "eastvale" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>I-10 in FONTANA</th>
           <th></th>
@@ -100,15 +100,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.fontana %}
+        {% for member in site.data.inventory %} {% if member.group == "fontana" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>210 in RIALTO</th>
           <th></th>
@@ -116,15 +116,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.rialto %}
+        {% for member in site.data.inventory %} {% if member.group == "rialto" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>710 in COMMERCE</th>
           <th></th>
@@ -132,15 +132,79 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.commerce %}
+        {% for member in site.data.inventory %} {% if member.group == "commerce" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>215 in SAN BERNARDINO</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.inventory %} {% if member.group == "bernadino" %}
+        <tr>
+          <td>{{ member.signId }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endif %} {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>215 in PERRIS</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.inventory %} {% if member.group == "perris" %}
+        <tr>
+          <td>{{ member.signId }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endif %} {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>RIALTO / RIVERSIDE AVE. @ 210 FWY</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.inventory %} {% if member.group == "riverside" %}
+        <tr>
+          <td>{{ member.signId }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endif %} {% endfor %}
+        <tr style="background-color: rgba(0,0,0,0.05);">
+          <th>MORONGO / CABAZON</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        {% for member in site.data.inventory %} {% if member.group == "cabazon" %}
+        <tr>
+          <td>{{ member.signId }}</td>
+          <td>{{ member.description }}</td>
+          <td>{{ member.facing }}</td>
+          <td>{{ member.size }}</td>
+          <td>{{ member.city }}</td>
+        </tr>
+        {% endif %} {% endfor %}
         <tr style="background-color: rgba(0,0,0,0.05);">
           <th>BARSTOW AREA</th>
           <th></th>
@@ -148,15 +212,15 @@ layout: default
           <th></th>
           <th></th>
         </tr>
-        {% for member in site.data.barstow %}
+        {% for member in site.data.inventory %} {% if member.group == "barstow" %}
         <tr>
-          <td>{{ member.name }}</td>
+          <td>{{ member.signId }}</td>
           <td>{{ member.description }}</td>
           <td>{{ member.facing }}</td>
           <td>{{ member.size }}</td>
           <td>{{ member.city }}</td>
         </tr>
-        {% endfor %}
+        {% endif %} {% endfor %}
       </table>
     </div>
   </div>
