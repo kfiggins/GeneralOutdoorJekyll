@@ -75,13 +75,11 @@ layout: default
 
 # Front Matter Defaults
 # defaults:
-#   # _posts
+#   # pdfs
 #   - scope:
-#       path: "_posts"
-#       type: posts
+#       path: "assets/pdfs/Signs"
 #     values:
-#       layout: post
-#       read_time: true
+#       image: true
 #   # _recipes
 #   - scope:
 #       path: "_recipes"

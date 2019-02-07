@@ -1,27 +1,27 @@
 signId,group,description,facing,size,matrix,type,city,zip,lat,long,tab,weeklyImpressions,dec,image,detailTitle,detailDescription,detailPDF
-CORONA-3E,corona,91 Fwy North Line 4000' West of I-15,East,14x48,200x704,Digital Bulletin,Corona,92879,33.879738,-117.559599,30762630,766341,179400,,,,
-CORONA-3W,corona,91 Fwy North Line 4000' West of I-15,West,14x48,200x704,Digital Bulletin,Corona,92879,33.879738,-117.559599,30762629,626689,179400,,,,
-CORONA-4N,corona,I-15 East Line 3000' South of 91 Fwy,North,14x48,200x704,Digital Bulletin,Corona,92879,33.873389,-117.544575,30774757,469443,132000,,,,
-CORONA-4S,corona,I-15 East Line 3000' South of 91 Fwy,South,14x48,200x704,Digital Bulletin,Corona,92879,33.873389,-117.544575,30774758,571328,132000,,,,
-RANCHO-1N,cucamonga,I-15 East Line between Foothill & 4th St,North,14x48,200x704,Digital Bulletin,Rancho Cucamonga,91730,34.089905,-117.543822,30649610,316937,137300,,,,
-RANCHO-1S,cucamonga,I-15 East Line between Foothill & 4th St,South,14x48,200x704,Digital Bulletin,Rancho Cucamonga,91730,34.089905,-117.543822,30649611,468926,137300,,,,
-ONTARIO-1E,ontario,60 Fwy North Line East of Vineyard,East,14x48,200x704,Digital Bulletin,Ontario,91761,34.030876,-117.599511,30771415,630135,155250,,,,
-ONTARIO-1W,ontario,60 Fwy North Line East of Vineyard,West,14x48,200x704,Digital Bulletin,Ontario,91761,34.030876,-117.599511,30771414,517106,155250,,,,
-EASTVALE-1N,eastvale,I-15 West Line 3000' South of 60 Fwy,North,14x48,200x704,Digital Bulletin,Eastvale,91752,34.013727,-117.550833,30782950,461797,105000,,,,
-EASTVALE-1S,eastvale,I-15 West Line 3000' South of 60 Fwy,South,14x48,200x704,Digital Bulletin,Eastvale,91752,34.013727,-117.550833,30782951,318653,105000,,,,
-ELSINORE-1N,elsinore,I-15 West Line North of Diamond Dr.,North,14x48,200x704,Digital Bulletin,Lake Elsinore,92530,33.670168,-117.310425,30657512,304767,91750,,,,
-ELSINORE-1S,elsinore,I-15 West Line North of Diamond Dr.,South,14x48,200x704,Digital Bulletin,Lake Elsinore,92530,33.670168,-117.310425,30657513,229048,91750,,,,
-SANBERN-1N,bernadino,215 Fwy East Line South of 2nd / 5th St.,North,14x48,200x704,Digital Bulletin,San Bernardino,92410,34.097726,-117.30113,30893107,pending,95900,,,,
-SANBERN-1S,bernadino,215 Fwy East Line South of 2nd / 5th St.,South,14x48,200x704,Digital Bulletin,San Bernardino,92410,34.097726,-117.30113,30893108,pending,95900,,,,
-FONTANA-2E,fontana,I-10 North Line at Etiwanda Ave,East,"17x60, 14x48","248x880, 200x704",Digital Bulletin,Fontana,92335,34.068723,-117.521498,30649608,475279,152500,,,,
-FONTANA-2W,fontana,I-10 North Line at Etiwanda Ave,West,"17x60, 14x48","248x880, 200x704",Digital Bulletin,Fontana,92335,34.068723,-117.521498,30649609,322668,152500,,,,
-RIALTO-2E,rialto,210 Fwy South Line at Riverside Ave,East,14x48,200x704,Digital Bulletin,Rialto,92376,34.135117,-117.370777,30832353,237612,85200,,,,
-RIALTO-2W,rialto,210 Fwy South Line at Riverside Ave,West,14x48,200x704,Digital Bulletin,Rialto,92376,34.135117,-117.370777,30832354,198629,85200,,,,
-PERRIS-1N,perris,215 Fwy West Line North of Hwy 74W / 4th St.,North,14x48,200x704,Digital Bulletin,Perris,92570,33.787032,-117.2213,30851939,261737,60720,,,,
-PERRIS-1S,perris,215 Fwy West Line North of Hwy 74W / 4th St.,South,14x48,200x704,Digital Bulletin,Perris,92570,33.787032,-117.2213,30851940,211492,60720,,,,
+CORONA-3E,corona,91 Fwy North Line 4000' West of I-15,East,14x48,200x704,Digital Bulletin,Corona,92879,33.879738,-117.559599,30762630,766341,179400,,,,CORONA-3E 91 Fwy NL WO I-15 EF 14X48.pdf
+CORONA-3W,corona,91 Fwy North Line 4000' West of I-15,West,14x48,200x704,Digital Bulletin,Corona,92879,33.879738,-117.559599,30762629,626689,179400,,,,CORONA-3W 91 Fwy NL WO I-15 WF 14X48.pdf
+CORONA-4N,corona,I-15 East Line 3000' South of 91 Fwy,North,14x48,200x704,Digital Bulletin,Corona,92879,33.873389,-117.544575,30774757,469443,132000,,,,CORONA-4N I-15 EL SO 91 Fwy NF 14X48.pdf
+CORONA-4S,corona,I-15 East Line 3000' South of 91 Fwy,South,14x48,200x704,Digital Bulletin,Corona,92879,33.873389,-117.544575,30774758,571328,132000,,,,CORONA-4S I-15 EL SO 91 Fwy SF 14X48.pdf
+RANCHO-1N,cucamonga,I-15 East Line between Foothill & 4th St,North,14x48,200x704,Digital Bulletin,Rancho Cucamonga,91730,34.089905,-117.543822,30649610,316937,137300,,,,RANCHO-1N I-15 EL NO 4th St NF 14x48.pdf
+RANCHO-1S,cucamonga,I-15 East Line between Foothill & 4th St,South,14x48,200x704,Digital Bulletin,Rancho Cucamonga,91730,34.089905,-117.543822,30649611,468926,137300,,,,RANCHO-1S I-15 EL NO 4th St SF 14x48.pdf
+ONTARIO-1E,ontario,60 Fwy North Line East of Vineyard,East,14x48,200x704,Digital Bulletin,Ontario,91761,34.030876,-117.599511,30771415,630135,155250,,,,ONTARIO-1E 60 Fwy NL EO Vineyard EF 14x48.pdf
+ONTARIO-1W,ontario,60 Fwy North Line East of Vineyard,West,14x48,200x704,Digital Bulletin,Ontario,91761,34.030876,-117.599511,30771414,517106,155250,,,,ONTARIO-1W 60 Fwy NL EO Vineyard WF 14x48.pdf
+EASTVALE-1N,eastvale,I-15 West Line 3000' South of 60 Fwy,North,14x48,200x704,Digital Bulletin,Eastvale,91752,34.013727,-117.550833,30782950,461797,105000,,,,EASTVALE-1N I-15 WL SO 60 Fwy NF 14x48.pdf
+EASTVALE-1S,eastvale,I-15 West Line 3000' South of 60 Fwy,South,14x48,200x704,Digital Bulletin,Eastvale,91752,34.013727,-117.550833,30782951,318653,105000,,,,EASTVALE-1S I-15 WL SO 60 Fwy SF 14x48.pdf
+ELSINORE-1N,elsinore,I-15 West Line North of Diamond Dr.,North,14x48,200x704,Digital Bulletin,Lake Elsinore,92530,33.670168,-117.310425,30657512,304767,91750,,,,ELSINORE-1N I-15 EL NO Diamond Dr NF 14X48.pdf
+ELSINORE-1S,elsinore,I-15 West Line North of Diamond Dr.,South,14x48,200x704,Digital Bulletin,Lake Elsinore,92530,33.670168,-117.310425,30657513,229048,91750,,,,ELSINORE-1S I-15 EL NO Diamond Dr SF 14X48.pdf
+SANBERN-1N,bernadino,215 Fwy East Line South of 2nd / 5th St.,North,14x48,200x704,Digital Bulletin,San Bernardino,92410,34.097726,-117.30113,30893107,pending,95900,,,,SANBERN-1N 215 Fwy EL SO 2nd St NF 14X48.pdf
+SANBERN-1S,bernadino,215 Fwy East Line South of 2nd / 5th St.,South,14x48,200x704,Digital Bulletin,San Bernardino,92410,34.097726,-117.30113,30893108,pending,95900,,,,SANBERN-1S 215 Fwy EL SO 2nd St SF 14X48.pdf
+FONTANA-2E,fontana,I-10 North Line at Etiwanda Ave,East,"17x60, 14x48","248x880, 200x704",Digital Bulletin,Fontana,92335,34.068723,-117.521498,30649608,475279,152500,,,,FONTANA-2E I-10 Fwy NL EO Etiwanda EF 14X48.pdf
+FONTANA-2W,fontana,I-10 North Line at Etiwanda Ave,West,"17x60, 14x48","248x880, 200x704",Digital Bulletin,Fontana,92335,34.068723,-117.521498,30649609,322668,152500,,,,FONTANA-2W I-10 Fwy NL EO Etiwanda WF 14X48.pdf
+RIALTO-2E,rialto,210 Fwy South Line at Riverside Ave,East,14x48,200x704,Digital Bulletin,Rialto,92376,34.135117,-117.370777,30832353,237612,85200,,,,RIALTO-2E 210 Fwy SL at Riverside EF 14X48.pdf
+RIALTO-2W,rialto,210 Fwy South Line at Riverside Ave,West,14x48,200x704,Digital Bulletin,Rialto,92376,34.135117,-117.370777,30832354,198629,85200,,,,RIALTO-2W 210 Fwy SL at Riverside WF 14X48.pdf
+PERRIS-1N,perris,215 Fwy West Line North of Hwy 74W / 4th St.,North,14x48,200x704,Digital Bulletin,Perris,92570,33.787032,-117.2213,30851939,261737,60720,,,,PERRIS-1N I-215 Fwy WL NO 4th St Hwy 74 NF 14x48.pdf
+PERRIS-1S,perris,215 Fwy West Line North of Hwy 74W / 4th St.,South,14x48,200x704,Digital Bulletin,Perris,92570,33.787032,-117.2213,30851940,211492,60720,,,,PERRIS-1S I-215 Fwy WL NO 4th St Hwy 74 SF 14x48.pdf
 COMMERCE-1N,commerce,"710 Fwy East Line, North of Washington",North,14x48,,Illum Bulletin,Commerce,90040,34.008972,-118.17196,30649602,796232,170500,,,,
 COMMERCE-1S,commerce,"710 Fwy East Line, North of Washington",South,14x48,,Illum Bulletin,Commerce,90040,34.008972,-118.17196,30649603,1008578,170500,,,,
-RIALTO-2S,riverside,210 Fwy South Line at Riverside Ave,South,14x43,,Illum Bulletin,Rialto,92376,34.135117,-117.370777,,,,,,,
+RIALTO-2S,riverside,210 Fwy South Line at Riverside Ave,South,14x43,,Illum Bulletin,Rialto,92376,34.135117,-117.370777,,,,,,,RIALTO-2S Riverside Ave WL SO 210 Fwy SF 14X43.pdf
 CABAZON-1E,cabazon,"I-10 Fwy South Line, 700' West of Morongo Trail",East,14x48,,Illum Bulletin,Cabazon,92230,33.920804,-116.80765,,,90400,,,,
 CABAZON-1W,cabazon,"I-10 Fwy South Line, 700' West of Morongo Trail",West,14x48,,Illum Bulletin,Cabazon,92230,33.920804,-116.80765,,,90400,,,,
 CABAZON-2E,cabazon,"I-10 Fwy South Line, 200' West of Morongo Trail",East,14x48,,Illum Bulletin,Cabazon,92230,33.921819,-116.806168,,,90400,,,,
