@@ -121,14 +121,14 @@
           <h3>Send us an Email</h3>
         </div>
 
-        <div class="contact-widget">
+        <!-- <div class="contact-widget">  Was breaking formspree!!-->
+          <div>
           <div class="contact-form-result"></div>
 
           <form
             class="nobottommargin"
-            id="template-contactform"
+            id="contactform"
             name="template-contactform"
-            action="https://formspree.io/kyler.figgins@gmail.com"
             method="POST"
           >
             <div class="form-process"></div>
@@ -215,7 +215,7 @@
               ></textarea>
             </div>
 
-            <div class="col_full hidden">
+            <!-- <div class="col_full hidden">
               <input
                 type="text"
                 id="template-contactform-botcheck"
@@ -223,8 +223,8 @@
                 value=""
                 class="sm-form-control"
               />
-            </div>
-
+            </div> -->
+            <input type="hidden" name="_next" value="http://localhost:4000/index.html" />
             <div class="col_full">
               <button
                 name="submit"
@@ -240,6 +240,13 @@
           </form>
         </div>
       </div>
+<!-- https://github.com/formspree/formspree
+     Using Formspree to send emails.-->
+    <script>
+        var contactform =  document.getElementById('contactform');
+        contactform.setAttribute('action', '//formspree.io/' + 'kyler.figgins' + '@' + 'gmail' + '.' + 'com');
+    </script>
+    <!-- END OF TEST FORM -->
       <!-- Contact Form End -->
 
       <!-- Google Map
