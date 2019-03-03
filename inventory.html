@@ -129,12 +129,12 @@ layout: default
 
           <h3>Send us an Email</h3>
 
-          <div class="contact-widget" data-alert-type="inline">
+          <div data-alert-type="inline">
             <div class="contact-form-result"></div>
 
             <form
               class="nobottommargin"
-              id="template-contactform"
+              id="{{ member.signId }}-form"
               name="template-contactform"
               action="include/sendemail.php"
               method="post"
@@ -224,7 +224,11 @@ layout: default
                   class="sm-form-control"
                 />
               </div>
-
+              <input
+                type="hidden"
+                name="_next"
+                value="http://localhost:4000/inventory.html"
+              />
               <div class="col_full">
                 <button
                   class="button button-3d nomargin"
@@ -244,6 +248,15 @@ layout: default
     </div>
   </div>
 </div>
+<!-- https://github.com/formspree/formspree
+     Using Formspree to send emails.-->
+<script>
+  var contactform = document.getElementById("{{member.signId}}-form");
+  contactform.setAttribute(
+    "action",
+    "//formspree.io/" + "kyler.figgins" + "@" + "gmail" + "." + "com"
+  );
+</script>
 {% endfor %}
 
 <style>
