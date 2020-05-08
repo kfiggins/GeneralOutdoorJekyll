@@ -13751,14 +13751,14 @@ body:not(.no-transition) #wrapper,
 }
 
 /* adding custom stuff here */
-#header #logo img {
+/* #header #logo img {
     height: 50px;
     margin-top: 25px;
     margin-bottom: 25px;
-}
+} */
 
-#header.sticky-header #logo img {
+/* #header.sticky-header #logo img {
     height: 40px !important;
     margin-top: 7.5px;
     margin-bottom: 7.5px;
-}
+} */
