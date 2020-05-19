@@ -103,9 +103,11 @@ layout: default
           </button>
         </div>
         <div class="modal-body">
+          {% if member.image %}
           <img src="assets/images/signs/{{ member.image }}" alt="{{ member.signId }}" />
           <br />
           <br />
+          {% endif %}
           <h4>{{ member.detailTitle }}</h4>
           <p>{{ member.detailDescription }}</p>
           <table class="table">
