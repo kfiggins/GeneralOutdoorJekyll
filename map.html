@@ -8,7 +8,7 @@ layout: default
       <!-- Google Map
               ============================================= -->
       <div class="center">
-        <section id="google-map" class="gmap" style="height: 500px;"></section>
+        <section id="google-map" class="gmap" style="height: 600px;"></section>
       </div>
       <!-- Google Map End -->
       <div class="clear"></div>
@@ -22,22 +22,30 @@ layout: default
 <script src="js/jquery.gmap.js"></script>
 
 <script>
+  var inventoryData = {{site.data.inventory | jsonify}};
+  var markerData = inventoryData.map(item => {
+      return {
+        // address: "Melbourne, Australia",
+        latitude: parseFloat(item.lat),
+			  longitude: parseFloat(item.long),
+        html:
+          `<div style="width: 300px;">
+              <h4 style="margin-bottom: 8px;">${item.signId}</h4>
+              <p class="nobottommargin">${item.description}</p>
+            </div>`,
+        icon: {
+          image: "images/icons/map-icon-red.png",
+          iconsize: [32, 39],
+          iconanchor: [32, 39]
+        }
+      }
+    })
   jQuery("#google-map").gMap({
     // address: "Melbourne, Australia",
-    // maptype: "ROADMAP",
-    // zoom: 14,
-    // markers: [
-    //   {
-    //     address: "Melbourne, Australia",
-    //     html:
-    //       '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
-    //     icon: {
-    //       image: "images/icons/map-icon-red.png",
-    //       iconsize: [32, 39],
-    //       iconanchor: [32, 39]
-    //     }
-    //   }
-    // ],
+    maptype: "ROADMAP",
+    // center: {lat: 34.5, lng: -117},
+    zoom: 8,
+    markers: [...markerData],
     // doubleclickzoom: false,
     controls: {
       panControl: true,
